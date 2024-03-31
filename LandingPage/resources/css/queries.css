@@ -1,0 +1,248 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+
+    .heading-main-box{
+        transform: translate(-35%,-50%);
+    }
+
+    form{
+        margin-left: 30%;
+    }
+}
+
+/* Small tablet to big tablet from 770px to 1023px */
+@media only screen and (max-width: 1023px){
+    html{
+        font-size: 15px;
+    }
+    
+    .logo{
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .main-nav{
+        margin-top: 50px;
+        margin-right: 15px;
+    }
+
+    .main-nav li{
+        margin-right: 10px;
+    }
+
+    .heading-main-box{
+        transform: translate(-20%, -50%);
+    }
+
+    .p-long{
+        font-size: 21px;
+    }
+
+    .product-box .button{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .product-box{
+        width: 95%;
+    }
+
+    h3{
+        font-size: 100%;
+    }
+
+    .product-box ul li{
+        margin-left: 5%;
+    }
+
+    .product-box .small-icon{
+        margin-right: 5px;
+    }
+
+    figcaption{
+        font-size: 110%;
+    }
+
+    .social-icons li{
+        margin-left: 10px;
+    }
+
+    .imformation i{
+        display: block;
+    }
+
+    .imformation li{
+        font-size: 14px;
+    }
+    label{
+        font-size: 130%;
+    }
+}
+
+/* Small phones to small tablet */
+@media only screen and (max-width: 769px){
+    .col{
+        width: 100%;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .logo{
+        width: 350px;
+        margin-left: 15%;
+    }
+
+    h1{
+        word-spacing: 2px;
+        font-size: 250%;
+    }
+
+    .heading-main-box{
+        transform: translate(-18%, -50%);
+    }
+
+    .heading-main-box .button{
+        width: 17%;
+    }
+
+    .about-section .row .p-long{
+        font-size: 20px;
+    }
+
+    .about-picture{
+        text-align: center;
+    }
+
+    .about-picture img{
+        width: 70%;
+    }
+
+    .picture-title{
+        font-size: 22px;
+    }
+
+    .product-section .button{
+        width: 60%;
+    }
+
+    .product-box{
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .product-box ul li{
+        margin-left: 20%;
+    }
+
+    h3{
+        font-size: 120%;
+    }
+
+    .testimonials-section .row .col{
+        margin-bottom: 50px;
+    }
+
+    figcaption{
+        visibility: hidden;
+    }
+
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    label{
+        margin-left: 35%;
+    }
+
+    .imformation{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imformation li{
+        font-size: 20px;
+    }
+
+    .social-icons{
+        text-align: center;
+    }
+
+    .social-icons li{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    textarea{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .menu-icon{
+        right: 45px;
+    }
+}
+
+/* Small phones form 0 to 480px */
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 12px;
+    }
+
+    .logo{
+        width: 220px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+    h1{
+        font-size: 200%;
+    }
+
+    .heading-main-box{
+        transform: translate(-10%,-50%);
+    }
+
+    .heading-main-box .button{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 2%;
+    }
+
+
+    .imformation li{
+        font-size: 15px;
+    }
+
+    .social-icons li{
+        font-size: 35px;
+    }
+
+    form{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    textarea{
+        margin-left: 10%;
+    }
+
+    .menu-icon{
+        top: 100px;
+    }
+
+    .sticky .logo{
+        width: 200px;
+        margin-top: -25px;
+    }
+}
